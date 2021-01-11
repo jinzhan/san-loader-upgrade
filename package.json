@@ -6,7 +6,7 @@
     "main": "webpack.config.js",
     "scripts": {
         "start": "http-server -c-1 dist",
-        "build": "webpack --progress"
+        "build": "rm -rf ./dist webpack --progress"
     },
     "author": "harttle<yangjvn@126.com>",
     "license": "MIT",
